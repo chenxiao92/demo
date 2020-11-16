@@ -42,6 +42,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+      				  <fork>true</fork>
+      				  <executable>/lib/jvm/java-1.8.0-openjdk-1.8.0.272.b10-1.el8_2.x86_64/jre/bin/javac.exe</executable>
+  				</configuration>
 			</plugin>
 		</plugins>
 	</build>
