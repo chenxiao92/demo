@@ -25,5 +25,5 @@ RUN echo 'Asia/Shanghai' >/etc/timezone
 EXPOSE 9001
 #指定容器启动程序及参数   <ENTRYPOINT> "<CMD>"
 #ENTRYPOINT ["java","-Dfile.encoding=utf-8","-jar","pl-app-busi.jar"]
-ENTRYPOINT ["java","-jar","demo-0.0.1-SNAPSHOT.jar","com.example.demo.DemoApplication"]
+ENTRYPOINT ["java","-jar","/root/docker/demo-0.0.1-SNAPSHOT.jar","com.example.demo.DemoApplication"]
 #CMD ["/start.sh"]
