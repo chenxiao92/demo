@@ -23,6 +23,6 @@ public class HelloController {
     public String faceImageCheck() throws IOException {
 
 
-        return "hello world";
+        return "hello jenkins";
     }
 }
