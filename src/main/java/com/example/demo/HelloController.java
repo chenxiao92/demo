@@ -19,7 +19,7 @@ public class HelloController {
 
 
 
-    @RequestMapping(value="/faceImageCheck")
+    @RequestMapping(value="/hello")
     public String faceImageCheck() throws IOException {
 
 
