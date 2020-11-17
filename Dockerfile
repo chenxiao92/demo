@@ -11,6 +11,7 @@ FROM java:8
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 RUN echo 'Asia/Shanghai' >/etc/timezone
 
+
 #复制上下文目录下的target/demo-1.0.0.jar 到容器里
 COPY target/*.jar app.jar
 #COPY target/bin/start.sh start.sh
